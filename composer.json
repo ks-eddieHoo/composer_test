@@ -9,6 +9,12 @@
         }
     ],
     "minimum-stability": "beta",
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://github.com/ks-eddieHoo/composer_test"
+        }
+    ],
     "require": {
         "php": ">=7.0"
     },
