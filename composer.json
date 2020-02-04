@@ -1,0 +1,21 @@
+{
+    "name": "eddie/composer_test",
+    "description": "this is composer test for eddie",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Eddie Hoo",
+            "email": "hushiqiang@ks-it.co"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Task\\": "src/Task",
+            "Test\\Order\\": "src/Order"
+        }
+    }
+}
